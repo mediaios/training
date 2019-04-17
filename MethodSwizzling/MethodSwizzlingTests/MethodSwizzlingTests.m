@@ -3,7 +3,7 @@
 //  MethodSwizzlingTests
 //
 //  Created by ethan on 2019/4/17.
-//  Copyright © 2019 ucloud. All rights reserved.
+//  Copyright © mediaios. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

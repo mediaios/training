@@ -15,6 +15,11 @@
 		AA7DF4E42266D54600C29D8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7DF4E32266D54600C29D8D /* main.m */; };
 		AA7DF4EE2266D54600C29D8D /* MethodSwizzlingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7DF4ED2266D54600C29D8D /* MethodSwizzlingTests.m */; };
 		AA7DF4F92266D54600C29D8D /* MethodSwizzlingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7DF4F82266D54600C29D8D /* MethodSwizzlingUITests.m */; };
+		AA7DF5082266D5C100C29D8D /* UIViewController+MI.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7DF5072266D5C100C29D8D /* UIViewController+MI.m */; };
+		AA7DF50B2266F04100C29D8D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7DF50A2266F04100C29D8D /* Person.m */; };
+		AA7DF50E2266F0EC00C29D8D /* ChinesePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7DF50D2266F0EC00C29D8D /* ChinesePerson.m */; };
+		AA7DF5112266F81300C29D8D /* Person+MI.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7DF5102266F81300C29D8D /* Person+MI.m */; };
+		AA7DF5172266FD2B00C29D8D /* MIMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7DF5162266FD2B00C29D8D /* MIMutableDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		AA7DF4F42266D54600C29D8D /* MethodSwizzlingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MethodSwizzlingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7DF4F82266D54600C29D8D /* MethodSwizzlingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodSwizzlingUITests.m; sourceTree = "<group>"; };
 		AA7DF4FA2266D54600C29D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7DF5062266D5C100C29D8D /* UIViewController+MI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MI.h"; sourceTree = "<group>"; };
+		AA7DF5072266D5C100C29D8D /* UIViewController+MI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MI.m"; sourceTree = "<group>"; };
+		AA7DF5092266F04100C29D8D /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		AA7DF50A2266F04100C29D8D /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		AA7DF50C2266F0EC00C29D8D /* ChinesePerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChinesePerson.h; sourceTree = "<group>"; };
+		AA7DF50D2266F0EC00C29D8D /* ChinesePerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChinesePerson.m; sourceTree = "<group>"; };
+		AA7DF50F2266F81300C29D8D /* Person+MI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+MI.h"; sourceTree = "<group>"; };
+		AA7DF5102266F81300C29D8D /* Person+MI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+MI.m"; sourceTree = "<group>"; };
+		AA7DF5152266FD2B00C29D8D /* MIMutableDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIMutableDictionary.h; sourceTree = "<group>"; };
+		AA7DF5162266FD2B00C29D8D /* MIMutableDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIMutableDictionary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,16 @@
 				AA7DF4D52266D54400C29D8D /* AppDelegate.m */,
 				AA7DF4D72266D54400C29D8D /* ViewController.h */,
 				AA7DF4D82266D54400C29D8D /* ViewController.m */,
+				AA7DF5092266F04100C29D8D /* Person.h */,
+				AA7DF50A2266F04100C29D8D /* Person.m */,
+				AA7DF5062266D5C100C29D8D /* UIViewController+MI.h */,
+				AA7DF5072266D5C100C29D8D /* UIViewController+MI.m */,
+				AA7DF50F2266F81300C29D8D /* Person+MI.h */,
+				AA7DF5102266F81300C29D8D /* Person+MI.m */,
+				AA7DF50C2266F0EC00C29D8D /* ChinesePerson.h */,
+				AA7DF50D2266F0EC00C29D8D /* ChinesePerson.m */,
+				AA7DF5152266FD2B00C29D8D /* MIMutableDictionary.h */,
+				AA7DF5162266FD2B00C29D8D /* MIMutableDictionary.m */,
 				AA7DF4DA2266D54400C29D8D /* Main.storyboard */,
 				AA7DF4DD2266D54600C29D8D /* Assets.xcassets */,
 				AA7DF4DF2266D54600C29D8D /* LaunchScreen.storyboard */,
@@ -263,7 +288,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA7DF4D92266D54400C29D8D /* ViewController.m in Sources */,
+				AA7DF5112266F81300C29D8D /* Person+MI.m in Sources */,
 				AA7DF4E42266D54600C29D8D /* main.m in Sources */,
+				AA7DF50B2266F04100C29D8D /* Person.m in Sources */,
+				AA7DF5082266D5C100C29D8D /* UIViewController+MI.m in Sources */,
+				AA7DF50E2266F0EC00C29D8D /* ChinesePerson.m in Sources */,
+				AA7DF5172266FD2B00C29D8D /* MIMutableDictionary.m in Sources */,
 				AA7DF4D62266D54400C29D8D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CFP9KY4MGC;
 				INFOPLIST_FILE = MethodSwizzling/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +486,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CFP9KY4MGC;
 				INFOPLIST_FILE = MethodSwizzling/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
