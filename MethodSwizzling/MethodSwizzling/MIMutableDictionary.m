@@ -31,7 +31,7 @@
 - (void)mi_setObject:(id)objContent forKey:(id<NSCopying>)keyContent
 {
     if (objContent && keyContent) {
-        NSLog(@"执行了进去");
+//        NSLog(@"执行了进去");
         [self mi_setObject:objContent forKey:keyContent];
     }
 }
