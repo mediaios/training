@@ -1,16 +1,16 @@
 //
-//  NSArray+Safe.h
+//  ButtonVC.h
 //  MethodSwizzling
 //
-//  Created by mediaios on 2019/4/18.
+//  Created by mediaios on 2019/4/19.
 //  Copyright © 2019 mediaios. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSArray (Safe)
+@interface ButtonVC : UIViewController
 
 @end
 

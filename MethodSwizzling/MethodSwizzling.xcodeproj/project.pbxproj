@@ -21,6 +21,9 @@
 		AA7DF5112266F81300C29D8D /* Person+MI.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7DF5102266F81300C29D8D /* Person+MI.m */; };
 		AA7DF5172266FD2B00C29D8D /* MIMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7DF5162266FD2B00C29D8D /* MIMutableDictionary.m */; };
 		AA7DF5B1226889DA00C29D8D /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7DF5B0226889DA00C29D8D /* NSArray+Safe.m */; };
+		AA7DF5B52269613400C29D8D /* ButtonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7DF5B42269613400C29D8D /* ButtonVC.m */; };
+		AA7DF5B8226964C900C29D8D /* UIButton+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7DF5B7226964C900C29D8D /* UIButton+Size.m */; };
+		AA7DF5BC22697B5F00C29D8D /* UIButton+QuickClick.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7DF5BB22697B5F00C29D8D /* UIButton+QuickClick.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,12 @@
 		AA7DF5162266FD2B00C29D8D /* MIMutableDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIMutableDictionary.m; sourceTree = "<group>"; };
 		AA7DF5AF226889DA00C29D8D /* NSArray+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
 		AA7DF5B0226889DA00C29D8D /* NSArray+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
+		AA7DF5B32269613400C29D8D /* ButtonVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonVC.h; sourceTree = "<group>"; };
+		AA7DF5B42269613400C29D8D /* ButtonVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonVC.m; sourceTree = "<group>"; };
+		AA7DF5B6226964C900C29D8D /* UIButton+Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Size.h"; sourceTree = "<group>"; };
+		AA7DF5B7226964C900C29D8D /* UIButton+Size.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Size.m"; sourceTree = "<group>"; };
+		AA7DF5BA22697B5F00C29D8D /* UIButton+QuickClick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+QuickClick.h"; sourceTree = "<group>"; };
+		AA7DF5BB22697B5F00C29D8D /* UIButton+QuickClick.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+QuickClick.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +128,8 @@
 		AA7DF4D32266D54400C29D8D /* MethodSwizzling */ = {
 			isa = PBXGroup;
 			children = (
+				AA7DF5B922697B3C00C29D8D /* ButtonClick */,
+				AA7DF5B22269600A00C29D8D /* Button */,
 				AA7DF5AE226888A500C29D8D /* NSArraySafe */,
 				AA7DF4D42266D54400C29D8D /* AppDelegate.h */,
 				AA7DF4D52266D54400C29D8D /* AppDelegate.m */,
@@ -168,6 +179,26 @@
 				AA7DF5B0226889DA00C29D8D /* NSArray+Safe.m */,
 			);
 			path = NSArraySafe;
+			sourceTree = "<group>";
+		};
+		AA7DF5B22269600A00C29D8D /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				AA7DF5B32269613400C29D8D /* ButtonVC.h */,
+				AA7DF5B42269613400C29D8D /* ButtonVC.m */,
+				AA7DF5B6226964C900C29D8D /* UIButton+Size.h */,
+				AA7DF5B7226964C900C29D8D /* UIButton+Size.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		AA7DF5B922697B3C00C29D8D /* ButtonClick */ = {
+			isa = PBXGroup;
+			children = (
+				AA7DF5BA22697B5F00C29D8D /* UIButton+QuickClick.h */,
+				AA7DF5BB22697B5F00C29D8D /* UIButton+QuickClick.m */,
+			);
+			path = ButtonClick;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,12 +331,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA7DF5B52269613400C29D8D /* ButtonVC.m in Sources */,
 				AA7DF4D92266D54400C29D8D /* ViewController.m in Sources */,
 				AA7DF5112266F81300C29D8D /* Person+MI.m in Sources */,
 				AA7DF5B1226889DA00C29D8D /* NSArray+Safe.m in Sources */,
 				AA7DF4E42266D54600C29D8D /* main.m in Sources */,
 				AA7DF50B2266F04100C29D8D /* Person.m in Sources */,
 				AA7DF5082266D5C100C29D8D /* UIViewController+MI.m in Sources */,
+				AA7DF5B8226964C900C29D8D /* UIButton+Size.m in Sources */,
+				AA7DF5BC22697B5F00C29D8D /* UIButton+QuickClick.m in Sources */,
 				AA7DF50E2266F0EC00C29D8D /* ChinesePerson.m in Sources */,
 				AA7DF5172266FD2B00C29D8D /* MIMutableDictionary.m in Sources */,
 				AA7DF4D62266D54400C29D8D /* AppDelegate.m in Sources */,
@@ -517,6 +551,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CFP9KY4MGC;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/MethodSwizzling/ButtonClick/UIButton+QuickClick.h\"";
 				INFOPLIST_FILE = MethodSwizzlingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -536,6 +571,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CFP9KY4MGC;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/MethodSwizzling/ButtonClick/UIButton+QuickClick.h\"";
 				INFOPLIST_FILE = MethodSwizzlingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

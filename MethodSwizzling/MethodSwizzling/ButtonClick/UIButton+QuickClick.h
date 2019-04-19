@@ -1,8 +1,8 @@
 //
-//  UIViewController+MI.h
+//  UIButton+QuickClick.h
 //  MethodSwizzling
 //
-//  Created by mediaios on 2019/4/17.
+//  Created by mediaios on 2019/4/19.
 //  Copyright © 2019 mediaios. All rights reserved.
 //
 
@@ -10,8 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIViewController (MI)
-
+@interface UIButton (QuickClick)
+@property (nonatomic,assign) NSTimeInterval delayTime;
 @end
 
 NS_ASSUME_NONNULL_END

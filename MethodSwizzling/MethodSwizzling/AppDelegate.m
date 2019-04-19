@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  MethodSwizzling
 //
-//  Created by ethan on 2019/4/17.
-//  Copyright © mediaios. All rights reserved.
+//  Created by mediaios on 2019/4/17.
+//  Copyright © 2019 mediaios. All rights reserved.
 //
 
 #import "AppDelegate.h"
